@@ -84,7 +84,7 @@
   Q2Attr = [^"]* ;
   UnqAttr = ( space | [^ \t\r\n<>"'] [^ \t\r\n<>]* ) ;
   Nmtoken = NameChar+ ;
-  Attr =  NameAttr "="  ('"' Q2Attr '"' | "'" Q1Attr "'" ) space* ;
+  Attr =  NameAttr space* "=" space* ('"' Q2Attr '"' | "'" Q1Attr "'" | UnqAttr space+ ) space* ;
   AttrEnd = ( NameAttr space* "=" space* UnqAttr? | Nmtoken ) ;
   AttrSet = ( Attr | Nmtoken space+ ) ;
   
