@@ -1,3 +1,9 @@
+--- 
+...
+
+---
+<!--(Maintained Duplo labels above. Read more on http://info.api.no/handbook/guidelines/GitHub-guidelines.html)-->
+
 = RedCloth - Textile parser for Ruby
 
 Homepage::  http://redcloth.org
@@ -194,5 +200,3 @@ Styles are applied with curly braces.
 
     table{border:1px solid black}.
     {background:#ddd;color:red}. |a|red|row|
-
-
