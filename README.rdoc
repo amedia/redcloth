@@ -1,3 +1,8 @@
+--- 
+...
+
+---
+<!--(Maintained Duplo labels above. Read more on http://info.api.no/handbook/guidelines/GitHub-guidelines.html)-->
 
 = RedCloth - Textile parser for Ruby
 
